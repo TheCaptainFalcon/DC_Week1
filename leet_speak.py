@@ -16,3 +16,17 @@ for conv in leet:
     elif conv == "T":
         leet = leet.replace("T","7")
 print(leet)        
+
+
+#Method 2 (key:point dictionary) - (needs working)
+# leet = input("Enter a string ").upper()
+# key = {"A":"4", "E":"3", "G":"6", "I":"1", "O":"0", "S":"5", "T":"7"}
+# empty_string = " "
+
+# for convert in leet:
+#     if convert in key:
+#         empty_string += key[convert]
+#     elif convert not in key:
+#         empty_string += leet[convert]
+#         pass    
+# print(empty_string)
