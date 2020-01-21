@@ -1,14 +1,15 @@
 vowels = "aeiou"
-user = input("Enter: ")
-new_string = " "
 
-for i in range(len(user)):
-    if user[i] == user[i-1] and user[i] in vowels:
-        new_string += user[i] * 4
+#empty string to add input and conversion into
+empty_string = " "
+
+#prompt
+con = input("Enter: ")
+
+#if vowel -1 gives same as if vowel exists, condition is met
+for j in range(len(con)):
+    if con[j] == con[j-1] and con[j] in vowels:
+        empty_string += con[j] * 4
     else:
-        new_string += user[i]
-print(new_string)
-
-#while loop version
-#while i < len(user)
-# i += 1
+        empty_string += con[j]
+print(empty_string)

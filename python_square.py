@@ -17,3 +17,8 @@ print (array1)
 #repeat ("<whatever>", <how many times>)
 array2 = numpy.repeat(["*"], 25).reshape(5,5)
 print (array2)
+
+
+#Scenario 3 - using a loop instead of numpy
+#total characters are given 25 -- 5x5
+
