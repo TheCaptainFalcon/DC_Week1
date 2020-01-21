@@ -7,6 +7,8 @@ string = " "
 for cipher in caesar:
     if cipher in key:
         string = string + key[cipher]
-        print (string)
     elif cipher not in key:
         string += " "
+        
+#placing at end gives end result - instead of showing every loop (if within)
+print(string)
